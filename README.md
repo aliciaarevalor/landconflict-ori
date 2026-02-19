@@ -53,12 +53,6 @@ This notebook implements a geographic decision-support model to classify and ana
 
 - **Conflict classification logic** comparing actual land cover against recommended land use vocation  
 
-      - **Agricultural/Livestock/Agroforestry**: Pastures, Heterogeneous agriculture acceptable; Urban, Industrial, Mining = High conflict
-      - **Forestry/Conservation**: Natural vegetation favored; Urban, Agricultural = High conflict  
-      - **Urban Areas**: Built-up surfaces required; Natural vegetation = High conflict
-      - **Water bodies**: Protected; Development = High conflict
-
-
 - **Three conflict levels**:
   -  **High Conflict**: Severe mismatch between land cover and vocation
   -  **Moderate Conflict**: Partial misalignment
