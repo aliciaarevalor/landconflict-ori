@@ -51,11 +51,18 @@ This notebook analyzes land use and land cover transitions:
 
 This notebook implements a geographic decision-support model to classify and analyze land use conflicts:
 
-- **Conflict classification logic** comparing actual land cover against recommended land use vocation
+- **Conflict classification logic** comparing actual land cover against recommended land use vocation  
+
+      - **Agricultural/Livestock/Agroforestry**: Pastures, Heterogeneous agriculture acceptable; Urban, Industrial, Mining = High conflict
+      - **Forestry/Conservation**: Natural vegetation favored; Urban, Agricultural = High conflict  
+      - **Urban Areas**: Built-up surfaces required; Natural vegetation = High conflict
+      - **Water bodies**: Protected; Development = High conflict
+
+
 - **Three conflict levels**:
-  - 🔴 **High Conflict**: Severe mismatch between land cover and vocation
-  - 🟠 **Moderate Conflict**: Partial misalignment
-  - 🟢 **No Conflict**: Appropriate land management practices
+  -  **High Conflict**: Severe mismatch between land cover and vocation
+  -  **Moderate Conflict**: Partial misalignment
+  -  **No Conflict**: Appropriate land management practices
 
 - **Temporal transition analysis** (2000→2010, 2010→2022, 2000→2022)
 - **Gain/loss quantification** of each conflict category over time
@@ -85,7 +92,7 @@ This notebook creates final cartographic products:
 - Department-level and regional summaries  
 
 ### Conflict Analysis
-- Automated conflict classification (High/Moderate/None)  
+- Conflict classification (High/Moderate/None)  
 - Temporal transition analysis  
 - Gain/loss quantification  
 - Spatial layers for GIS integration  
@@ -94,7 +101,6 @@ This notebook creates final cartographic products:
 - Time-series bar charts  
 - Sankey diagrams showing class transitions  
 - Multi-panel conflict maps  
-- Publication-ready PDF outputs  
 
 ---
 
