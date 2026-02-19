@@ -11,7 +11,7 @@ The project performs a comparative spatial analysis between **Land Use/Land Cove
 ## Study area and temporal coverage
 
 - **Geographic focus**: Arauca, Casanare, and Meta (Orinoquia region, Colombia)
-- **Time Period**: 2000, 2010, and 2022
+- **Time period**: 2000, 2010, and 2022
 
 ---
 
@@ -77,15 +77,15 @@ This notebook creates final cartographic products:
 ---
 
 
-## Key Features & Outputs
+## Key features and outputs
 
-### Land Cover Analysis
+### Land Cover analysis
 - Multi-temporal area statistics (2000, 2010, 2022)  
 - Net change calculations and trend analysis  
 - Transition flows via Sankey diagrams  
 - Department-level and regional summaries  
 
-### Conflict Analysis
+### Conflict analysis
 - Conflict classification (High/Moderate/None)  
 - Temporal transition analysis  
 - Gain/loss quantification  
